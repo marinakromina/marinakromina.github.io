@@ -1,0 +1,118 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", "Lucida Sans";
+    width: 15%;
+    border-radius: 10%;
+    text-shadow:
+    1px 1px 0px black, /*Bottom-right shadow */
+    -1px 1px 0px black, /*Bottom-left shadow */
+    1px -1px 0px black, /*Top-right shadow */
+    -1px -1px 0px black; /*Top-left shadow */
+}
+
+ul {
+    margin:0px;
+}
+
+#mainheader {
+    background-color: skyblue;
+    color: honeydew;
+    display: flex;
+    height: 10svh;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-bar{
+    display: flex;
+}
+
+#nav-bar > li {
+    padding: 20px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: honeydew;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 12px;
+    border: 1px solid honeydew;
+    border-radius: 50%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: skyblue;
+    display: flex;
+}
+
+img {
+    border-radius: 25%;
+}
+
+body > footer > h2 {
+    color: honeydew;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", "Lucida Sans";
+    width: 15%;
+    border-radius: 10%;
+    text-shadow:
+    1px 1px 0px black, /*Bottom-right shadow */
+    -1px 1px 0px black, /*Bottom-left shadow */
+    1px -1px 0px black, /*Top-right shadow */
+    -1px -1px 0px black; /*Top-left shadow */
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px; 
+}
+
+#footer-ul > div > li > a {
+    color: honeydew;
+    text-decoration: none;
+}
